@@ -1,0 +1,139 @@
+body {
+    font-family: "Figtree", sans-serif;
+    background-color: #333;
+    margin: 0;
+    padding: 0;
+  }
+  #textBox {
+  
+  
+    border: 0px;
+    width: 50%;
+    font-family: "Figtree", sans-serif;
+    font-size: 18px;
+    padding: 4px;
+  }
+  #root {
+    width: 100vw;
+    height: 100vh;
+    background-color: white;
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    justify-content: center; 
+    gap: 20px; 
+    text-align: center; 
+  }
+
+  #progress {
+    position: absolute;
+    top: calc(100vh - 250px);
+    width: 50%;
+    border-radius: 50px;
+    background-color: #434372;
+    color: white;
+    visibility: hidden;
+    text-align: center;
+  }
+  .swal2-popup {
+    font-size: 20px;
+    padding: 0px;
+    margin: 0px;
+    padding: 0px;
+    width: 35em !important;
+  }
+  .swal2-container .swal2-html-container {
+    text-align: left;
+    margin: 0px;
+    padding: 0px;
+  }
+  #controls {
+    position: relative; 
+    width: 30%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+  }
+  
+  .all_buttons {
+    display: flex;
+    gap: 35px;
+    
+  }
+  
+  .toolbar {
+    width: 200%;
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
+  }
+  
+  #textBox {
+    width: 100%;
+    border-radius: 50px;
+    margin-bottom: 20px;
+    margin-top: 5px;
+  }
+  
+    textarea:focus {
+    outline: 2px solid #ffd64e; 
+ } 
+  
+  /* increase of decrease the height and widht of buttons here  */
+  button {
+    padding: 5px;
+    background: transparent;
+    border: none;
+    cursor: default;
+    color: white;
+    width: 40px;
+    height: 40px;
+  }
+  
+
+  button:hover {
+    background-color: #434372;
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2); 
+    border-radius: 50%;
+    
+  }
+  
+  #connect {
+    cursor: pointer;
+  }
+
+  #connect:hover {
+    background-color: #31b99b;
+  }
+
+  #disconnect:hover{
+    background-color: #ef586a;
+  }
+
+  button:active {
+    transform: scale(0.95); 
+  }
+  
+  /* increase of decrease fontsie here  */
+  button .material-icons {
+    color: white;
+    font-size: 24px;
+  
+  }
+
+  .logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .logo img {
+    width: 200px; 
+    height: auto; 
+  }
+
+  
+  
