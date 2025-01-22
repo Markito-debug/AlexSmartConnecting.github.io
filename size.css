@@ -19,7 +19,7 @@
 
   .myvideoDiv::before,
   .myvideoDiv::after {
-    content: "Deze chatbot geeft algemene informatie en kan fouten bevatten. Raadpleeg bij sensitieve onderwerpen of twijfel een professional.";
+    content: "Alex geeft algemene informatie en kan fouten maken. Raadpleeg bij sensitieve onderwerpen of twijfel een professional.";
     position: absolute;
     width: 200px; 
     writing-mode: horizontal-tb;
